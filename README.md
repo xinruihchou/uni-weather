@@ -1,10 +1,19 @@
-## 简介
-无空天气是一个基于uni-app跨平台前端框架的天气预报小程序
-- 技术栈：uniapp + sass + ucharts
-- 数据来源：[咕咕数据](https://www.gugudata.com/)
-- [源码传送门](https://github.com/dengzhixin/uni-weather)
-<center>
+# uni-weather
 
-![image.png](https://dengzhixin-halo.oss-cn-shenzhen.aliyuncs.com/halo/image_1584725367986.png?x-oss-process=style/pic)
+#### 介绍
+基于uni-app制作的天气小程序
 
-</center>
+#### GIF展示
+![](https://images.gitee.com/uploads/images/2019/1125/105004_a502e51a_1107178.gif "22.gif")
+
+#### 项目功能点
+
+1.骨架屏loading带来良好用户体验
+
+2.支持定位位置切换
+
+3.扁平化UI风格
+
+4.逐小时查看天气情况
+
+5.根据天气情况提供出行建议

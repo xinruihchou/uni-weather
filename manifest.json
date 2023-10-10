@@ -1,6 +1,6 @@
 {
-    "name" : "hello-weather",
-    "appid" : "__UNI__1F63708",
+    "name" : "uni-weather",
+    "appid" : "__UNI__A8E36EB",
     "description" : "",
     "versionName" : "1.0.0",
     "versionCode" : "100",
@@ -9,7 +9,6 @@
     "app-plus" : {
         "usingComponents" : true,
         "nvueCompiler" : "uni-app",
-        "compilerVersion" : 3,
         "splashscreen" : {
             "alwaysShowBeforeRender" : true,
             "waiting" : true,
@@ -57,11 +56,16 @@
     "quickapp" : {},
     /* 小程序特有相关 */
     "mp-weixin" : {
-        "appid" : "",
+        "appid" : "wxd303445373a007b4",
         "setting" : {
             "urlCheck" : false
         },
-        "usingComponents" : true
+        "usingComponents" : true,
+        "permission" : {
+            "scope.userLocation" : {
+                "desc" : "获取用户位置"
+            }
+        }
     },
     "mp-alipay" : {
         "usingComponents" : true
