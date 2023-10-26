@@ -172,7 +172,7 @@ export default {
 					const { latitude, longitude } = res;
 					const result = await $weatherApi.getLocationDetail({
 						location: `${latitude},${longitude}`,
-						key: 'TAIBZ-SGZL7-4WRX4-PR7T4-YO4NJ-7ZB3U'
+						key: 'XJLBZ-QFTHJ-ZODFA-KNR74-WGRCO-QEB56'
 					});
 					console.log(result);
 					let { province, city, district } = result.data.result.address_component;
