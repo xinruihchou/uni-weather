@@ -1,5 +1,5 @@
 // 常量 PRE_HTTP 存储 API 的前缀
-const PRE_HTTP = "https://api.gugudata.com"
+const PRE_HTTP = "https://ali-weather.showapi.com"
 
 // 定义 request 函数，接收一个请求对象作为参数，返回一个 Promise 对象
 export function request({
